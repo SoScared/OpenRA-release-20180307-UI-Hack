@@ -9,6 +9,7 @@ Player:
 		QueuedAudio: Building
 		ReadyAudio: ConstructionComplete
 		SpeedUp: True
+		SpectatorUIOrder: 0
 	ClassicProductionQueue@Defense:
 		Type: Defense
 		BuildDurationModifier: 120
@@ -16,21 +17,25 @@ Player:
 		QueuedAudio: Building
 		ReadyAudio: ConstructionComplete
 		SpeedUp: True
+		SpectatorUIOrder: 1
 	ClassicProductionQueue@Vehicle:
 		Type: Vehicle
 		BuildDurationModifier: 120
 		LowPowerSlowdown: 3
 		SpeedUp: True
+		SpectatorUIOrder: 2
 	ClassicProductionQueue@Infantry:
 		Type: Infantry
 		BuildDurationModifier: 120
 		LowPowerSlowdown: 3
 		SpeedUp: True
+		SpectatorUIOrder: 3
 	ClassicProductionQueue@Air:
 		Type: Air
 		BuildDurationModifier: 120
 		LowPowerSlowdown: 3
 		SpeedUp: True
+		SpectatorUIOrder: 4
 	PlaceBuilding:
 		Palette: placebuilding
 		LineBuildSegmentPalette: placelinesegment

@@ -1,6 +1,6 @@
 Metadata:
 	Title: Tiberian Dawn
-	Version: {DEV_VERSION}
+	Version: release-20180307
 
 PackageFormats: Mix
 
@@ -31,7 +31,7 @@ Packages:
 
 MapFolders:
 	cnc|maps: System
-	~^maps/cnc/{DEV_VERSION}: User
+	~^maps/cnc/release-20180307: User
 
 Rules:
 	cnc|rules/misc.yaml

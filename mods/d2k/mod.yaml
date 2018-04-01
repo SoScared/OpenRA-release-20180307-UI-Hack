@@ -1,6 +1,6 @@
 Metadata:
 	Title: Dune 2000
-	Version: {DEV_VERSION}
+	Version: release-20180307
 
 PackageFormats: D2kSoundResources
 
@@ -21,7 +21,7 @@ Packages:
 
 MapFolders:
 	d2k|maps: System
-	~^maps/d2k/{DEV_VERSION}: User
+	~^maps/d2k/release-20180307: User
 
 Rules:
 	d2k|rules/misc.yaml
@@ -74,7 +74,7 @@ ChromeLayout:
 	common|chrome/ingame-infoobjectives.yaml
 	d2k|chrome/ingame-infostats.yaml
 	common|chrome/ingame-observer.yaml
-	common|chrome/ingame-observerstats.yaml
+	d2k|chrome/ingame-observerstats.yaml
 	d2k|chrome/ingame-player.yaml
 	common|chrome/ingame-perf.yaml
 	common|chrome/ingame-debug.yaml

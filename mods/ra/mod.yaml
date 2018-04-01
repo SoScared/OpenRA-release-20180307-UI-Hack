@@ -1,6 +1,6 @@
 Metadata:
 	Title: Red Alert
-	Version: {DEV_VERSION}
+	Version: release-20180307
 
 PackageFormats: Mix
 
@@ -34,7 +34,7 @@ Packages:
 
 MapFolders:
 	ra|maps: System
-	~^maps/ra/{DEV_VERSION}: User
+	~^maps/ra/release-20180307: User
 
 Rules:
 	ra|rules/misc.yaml

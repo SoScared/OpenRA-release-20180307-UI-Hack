@@ -1,6 +1,6 @@
 Metadata:
 	Title: Tiberian Sun
-	Version: {DEV_VERSION}
+	Version: release-20180307
 
 PackageFormats: Mix
 
@@ -49,7 +49,7 @@ Packages:
 
 MapFolders:
 	ts|maps: System
-	~^maps/ts/{DEV_VERSION}: User
+	~^maps/ts/release-20180307: User
 
 Rules:
 	ts|rules/ai.yaml

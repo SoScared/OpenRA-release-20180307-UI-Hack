@@ -16,9 +16,6 @@ _ReSharper.*/
 # movies
 *.vqa
 
-# archives
-*.mix
-
 # binaries
 mods/*/*.dll
 mods/*/*.mdb
